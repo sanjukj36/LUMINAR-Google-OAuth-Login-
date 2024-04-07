@@ -67,7 +67,7 @@ function Profile() {
 
                                     <img className='w-100' src="https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001882.png" alt="Profile" />
                                     :
-                                    <img className='w-100 mt-5' src={displayPicture} alt="Profile" />
+                                    <img width={200} className='rounded-circle mt-5' src={displayPicture} alt="Profile" />
 
                                 }
 
